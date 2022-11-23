@@ -1,0 +1,18 @@
+﻿<Application x:Class="Глазки_SaveErshov.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Глазки_SaveErshov"
+             StartupUri="MainWindowGlazki.xaml">
+   
+    <Application.Resources>
+        <Style TargetType="Label">
+            <Setter Property="FontFamily" Value="Century Gothic"/>
+        </Style>
+        <Style TargetType="Button">
+            <Setter Property="Background" Value="#B175EE"/>
+            <Setter Property="FontFamily" Value="Century Gothic"/>
+
+        </Style>
+        
+    </Application.Resources>
+</Application>
